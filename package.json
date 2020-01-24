@@ -1,0 +1,34 @@
+{
+  "name": "process-keep-alive",
+  "version": "0.0.0",
+  "description": "A simple module using cluster to force your process running permanently.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cluster": "^0.7.7",
+    "moment-timezone": "^0.5.27"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zero-Brazil734/process-keep-alive.git"
+  },
+  "keywords": [
+    "node",
+    "process",
+    "keep",
+    "alive",
+    "keepalive"
+  ],
+  "author": "Zero-Brazil734",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zero-Brazil734/process-keep-alive/issues"
+  },
+  "homepage": "https://github.com/Zero-Brazil734/process-keep-alive#readme"
+}
