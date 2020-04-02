@@ -11,7 +11,7 @@
     "url": "https://github.com/Zero-Brazil734/process-keep-alive.git"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "cluster": "^0.7.7",
     "moment-timezone": "^0.5.27"
   },
