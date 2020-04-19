@@ -20,4 +20,4 @@ jobs:
     - name: ESLint
       uses: icrawl/action-eslint@v1
       with:
-        custom-glob: src
+        custom-glob: lib
