@@ -19,6 +19,9 @@
         <a href="https://standardjs.com/" target="_blank">
            <img alt="StandardJS" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg">
         </a>
+        <a href="https://www.codacy.com/manual/zero734kr/process-keep-alive?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Zero-Brazil734/process-keep-alive&amp;utm_campaign=Badge_Grade">
+            <img alt="" src="https://api.codacy.com/project/badge/Grade/a5ed8bd23b9d4f89866eba84df4b125b">
+        </a>
     </p>
 <center>
 
