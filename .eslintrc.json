@@ -4,28 +4,12 @@
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": "standard",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 10
-    },
-    "rules": {
-        "indent": [
-            "warn",
-            4
-        ],
-        "quotes": [
-            "warn",
-            "double"
-        ],
-        "semi": [
-            "warn",
-            "never"
-        ],
-        "no-redeclare": 0,
-        "no-unused-vars": 0
+        "ecmaVersion": 2019
     }
 }

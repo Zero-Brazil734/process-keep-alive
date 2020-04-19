@@ -1,26 +1,14 @@
 {
-  "name": "@zero-brazil734/process-keep-alive",
-  "version": "0.0.0",
+  "name": "process-keep-alive",
+  "version": "0.0.1",
   "description": "A simple module using cluster to force your process running permanently.",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zero-Brazil734/process-keep-alive.git"
-  },
-  "dependencies": {
-    "chalk": "^3.0.0",
-    "cluster": "^0.7.7",
-    "moment-timezone": "^0.5.27"
+    "url": "git+https://github.com/zero734kr/process-keep-alive.git"
   },
   "scripts": {
-    "test": "node ./test/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zero-Brazil734/process-keep-alive.git"
+    "test": "node ./test/test.js"
   },
   "keywords": [
     "node",
@@ -29,11 +17,13 @@
     "alive",
     "keepalive"
   ],
-  "author": "Zero-Brazil734",
+  "author": "zero734kr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zero-Brazil734/process-keep-alive/issues"
+    "url": "https://github.com/zero734kr/process-keep-alive/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/zero-brazil734" },
-  "homepage": "https://github.com/Zero-Brazil734/process-keep-alive#readme"
+  "homepage": "https://github.com/zero734kr/process-keep-alive#readme",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
 }
